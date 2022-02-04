@@ -1,0 +1,117 @@
+<!DOCTYPE  html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>website using Bootstrap</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="" height="50px" />@HemaReddy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Technologies
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">FrontEnd</a></li>
+                            <li><a class="dropdown-item" href="#">BackEnd</a></li>
+                            <li><a class="dropdown-item" href="#">DataBase</a></li>
+                            <li>
+                                <hr class="dropdown-divider"> </li>
+                            <li><a class="dropdown-item" href="#"> Connect with Github </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group my-4">
+                <label for="exmpleFormControlSelection1"> Select Your Query </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Have a problem with Html</option>
+                    <option>Have a problem with CSS</option>
+                    <option>Have a problem with JAVASCRIPT</option>
+                    <option>Have a problem with JAVA</option>
+                    <option>Have a problem with SPRING Boot</option>
+                    <option>Have a problem with SQL </option>
+                </select>
+            </div>
+
+            <!--CHECK BOX-->
+            <div class="form-group my-4">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Are you addicted with Teachnologies?
+                </label>
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">Yes</input>
+
+            </div>
+            <!--TYPE SOMTHING  BOX-->
+            <div class="form-group my-4">
+                <label for="exampleFormControlTextarea1" class="form-label">Elaborate With Your Technical Topic Here:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+
+            <div class="col-auto my-4">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!--FOOTER FOR THIS WEBSITE-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">©HReddy 2022 </p>
+
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img src="./Images/hema3.png" width="60px" height="60px" />
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="/ContactUs.html" class="nav-link px-2 text-muted">Contact US</a></li>
+
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
